@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dosyam</title>
+    <link rel="icon" href="/1_Images/ashitaka1.jpg">
+</head>
+<body>
+    <script>
+        let s1 = Number(prompt("Bir sayı giriniz:"));
+        let s2 = Number(prompt("Bir sayı daha giriniz:"));
+        let s3 = Number(prompt("Bir sayı daha giriniz:"));
+        let s4 = Number(prompt("Bir sayı daha giriniz:"));
+
+        let enBuyuk = s1;
+        if (s2 > enBuyuk) {
+            enBuyuk = s2;
+        }
+        if (s3 > enBuyuk) {
+            enBuyuk = s3;
+        }
+        if (s4 > enBuyuk) {
+            enBuyuk = s4;
+        }
+
+        document.write("En büyük sayı: " + enBuyuk);
+    </script>
+</body>
+</html>
